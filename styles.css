@@ -1,0 +1,26 @@
+body{
+    background: #0A2E36;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.center-div{
+    padding-top: 60%;
+}
+
+@media(min-width: 500px){
+    .center-div{
+        padding-top: 30%;
+    }
+}
+
+@media(min-width: 750px){
+    .center-div{
+        padding-top: 17%;
+    }
+}
